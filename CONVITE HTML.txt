@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convite Interativo</title>
+  <style>
+    body {
+      background-color: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #convite {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+    #nao {
+      position: absolute;
+      top: 150px; /* Ajuste a posição vertical conforme necessário */
+      left: 200px; /* Ajuste a posição horizontal conforme necessário */
+    }
+    .coracao {
+      color: red;
+      font-size: 30px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="convite">
+    <
